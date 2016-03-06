@@ -1,0 +1,39 @@
+
+#mrova-feedback{
+	display: hidden;
+	width: 190px;
+	position: fixed;
+	right: -192px;
+	background-color: #F9F9F9;
+}
+
+#mrova-feedback .cus-hdng{ background:#4B4B4B; font-size:16px; color:#E1E1E1; padding:14px 20px; text-transform:uppercase; text-align:center;}
+#mrova-feedback .cus-sub-hdng{ color:#c7c7c7; font-size:13px; margin-bottom:8px;}
+
+#mrova-feedback div.inner-cotnt{padding:14px 20px;}
+
+#mrova-feedback ul {
+	margin: 0;
+	padding: 0;
+	
+}
+
+#mrova-feedback ul li{ float:left;}
+
+#mrova-feedback ul li a{ text-indent:-20000px; display:block; width:40px; height:40px; margin-right:9px;}
+#mrova-feedback ul li a#style1{ background:#EF880B;}
+#mrova-feedback ul li a#style2{ background:#90b751;}
+#mrova-feedback ul li a#style3{ background:#F67052;}
+
+
+
+#mrova-img-control{
+	cursor: pointer;
+	
+position: absolute;
+left: -52px;
+top:72px !important;
+width: 52px;
+background: transparent url('../img/customize.gif');
+height: 49px;
+}

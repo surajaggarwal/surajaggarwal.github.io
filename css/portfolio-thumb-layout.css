@@ -1,0 +1,148 @@
+/*PORTFOLIO THUMB LAYOUT*/
+
+.portfolio-wrapper .label { 
+	position:absolute; 
+	left:0px; 
+	top:0px; 
+	height:99%; 
+	width:100%; 
+	opacity:0; 
+	transition:opacity 0.5s 0s ease-in-out;
+	-webkit-transition:opacity 0.5s 0s ease-in-out;
+	-moz-transition:opacity 0.5s 0s ease-in-out;
+}
+
+.portfolio-wrapper:hover .label { 
+	opacity:.96;
+}
+.portfolio-wrapper .label-text { 
+	position:absolute; 
+	top:0px; 
+	bottom:0px; 
+	margin:auto; 
+	height:30px;
+	width:100%; 
+}
+
+.portfolio-wrapper .label-text h4 { 
+	text-align:center; 
+	color:#fff; 
+	font-size:16px; 
+	transition-delay:0.8s;
+}
+.portfolio-wrapper .label-text span { 
+	display:block; 
+	padding:5px; 
+	text-align:center; 
+	color:#fefefe; 
+	font-size:9px; 
+	letter-spacing:1px;
+}
+ 
+#filters {
+	margin: 1.9% 1% 2% 1%;
+	padding:0;
+	list-style:none;
+	float:right;
+}
+
+#filters li {
+	float:left;
+}
+
+#filters li span {
+	display: block;
+	padding:3px 6px;		
+	text-decoration:none;
+	color:#9c9c9c;
+	cursor: pointer;
+	margin-right:12px;
+	font-size:16px;	
+}
+	
+#filters li span i { 
+	margin-right:4px;
+}
+	
+#filters li span.active {
+	background: #7e7e7e;
+	color:#fff;
+}
+ 
+#portfoliolist { 
+	margin-top:10px; 
+	margin-left:-2%;
+}
+ 
+#portfoliolist .portfolio {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	width:31.3333333333%;
+	margin:1% 0 1% 2% ;
+	display:none;
+	float:left;
+	overflow:hidden;
+}
+
+.portfolio-wrapper {
+	overflow:hidden;
+	position: relative !important;
+	background: red;
+	cursor:pointer;
+}
+
+.portfolio img {
+	max-width:100%;
+	height:auto;
+	position: relative;
+}
+	
+
+@media screen and (max-width: 768px) {
+	
+.span_4 {
+	margin-right:4%;
+}
+
+#filters li { 
+	margin-bottom:8px;
+}
+	
+#portfoliolist { 
+	margin-top:10px; 
+	margin-left:0%;
+}
+	
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container {
+	width: 100%; 
+}
+		
+ }
+
+@media only screen and (max-width: 767px) {
+.container { 
+	width: 100%; 
+}
+	
+#portfoliolist .portfolio {
+	width:48%;
+	margin:1%;
+}		
+
+ }
+
+@media only screen and (max-width: 480px) {
+.container {
+	width: 100%;
+}
+
+#portfoliolist .portfolio {
+	width:98%;
+	margin:1%;
+}		
+	
+ }

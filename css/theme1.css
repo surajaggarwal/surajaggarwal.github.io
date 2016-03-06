@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*THEME PRIMARY COLOR*/
+
+.bgWrapper {
+	background: url(../images/theme2-bg.gif) top center;
+}
+
+ul.nav_tab li a.nav_active{
+	background: #f9f9f9;	
+}
+
+ul.nav_tab li a.nav_active i,
+ul.nav_tab li a:hover i,
+#container header .name-title h1,
+ul.nav_tab li a.nav_active,
+.resume-srvc li .srvc-icon,
+#container header ul.nav_tab li a.drop-active i { 
+	color:#ef880b !important;
+}
+
+.tweet-box,
+.portfolio-wrapper .label,
+ul.nav_tab li a,
+.hdng-ln, .hdng-ln-slim, .hdng-ln-slim1,
+#container header  ul.nav_tab li a.resume-tab,
+.event a.radio,
+#resume-popup-box .hdng-txt span
+  { 
+	background:#ef880b;
+}
+
+/*RESUME TAB COLOR STYLING*/
+
+#container header  ul.nav_tab li a.resume-tab {  
+	-moz-box-shadow: inset 0px 2px 2px #d98205;
+	-webkit-box-shadow: inset 0px 2px 2px #d98205;
+	box-shadow: inset 0px 2px 2px #d98205;
+}
+
+#container header  ul.nav_tab li a.resume-tab i {
+	color:#b16911;
+}
+
+/*FUNCATS BOX DIVIDER LINE COLOR*/
+
+.tweet-box ul li .top-lft-scroll { 
+	border-right:1px solid #f69c2e;}
+	
+.tweet-box ul li .tweet-sectn { 
+	border-top:1px solid #f69c2e;
+}
+
+/*CONTAINER BORDER COLOR UPTO 979px width screen*/
+
+@media (max-width: 979px) {
+#container .top-header {
+ border-top:5px solid #ef880b;
+ }
+}
+
+/*THEME SECONDARY COLOR*/
+
+.testimonial-box,
+.skillbar-bar,
+.reply { 
+	background:#1f9d7e; 
+}
+
+#container header .name-title h5,
+.testimonial-box .hdng-txt span,
+.reply:hover { 
+	color:#1f9d7e;
+}
+
